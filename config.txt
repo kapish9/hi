@@ -1,0 +1,5 @@
+{
+	"ip":"kaish258.aternos.me",
+	"port": " 51734",
+	"name": "botchap"
+}
