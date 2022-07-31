@@ -24,7 +24,7 @@ bot.on('login',function(){
 	console.log("Logged In")
 });
 bot.on('time', function() {
-    if (connected <1) {
+    if (connected <10) {
         return;
     }
     if (lasttime<0) {
@@ -50,7 +50,8 @@ bot.on('time', function() {
         }
     }
 });
-
+{
+night skip=true
 bot.on('spawn',function() {
     connected=1;
 });
